@@ -1,8 +1,10 @@
 Body {
 	background: #757575;
+	font-family: georgia, serif;
+	font-size: 16px;
 }
 .container{
-	font-family: georgia;
+	font-family: georgia, serif;	
 }
 .paragraph{
 	color: #383838;
@@ -10,7 +12,7 @@ Body {
 	margin-right: 100px;
 }
 h1{
-	font-family: georgia;
+	font-family: georgia, serif;
 	font-weight: bold;
 	font-size: 50px;
 	color: white;
