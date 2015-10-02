@@ -1,54 +1,70 @@
 Body {
-	background: #757575;
-	font-family: georgia, serif;
+	background: white;
+	font-family: helvetica;
 	font-size: 16px;
 }
-.container{
-	font-family: georgia, serif;	
+.name{
+	font-size: 30px;
+	
 }
-.paragraph{
-	color: #383838;
-	margin-left: 100px;
-	margin-right: 100px;
+.projects{
+	font-size: 30px;
+	border-bottom: 1px solid black;
 }
-h1{
-	font-family: georgia, serif;
-	font-weight: bold;
-	font-size: 50px;
+.lesson{
+	padding: 10px;
+	background-color:white;
+	margin-top: 5px;
+	color: #7C2929;
+}
+.lesson:hover{
+	background-color: #7C2929;
 	color: white;
-	margin-bottom: 20px;
-	margin-left: 450px;
 }
-p{
-	font-family: Georgia;
-	line-height: 20px;
-	margin-bottom: 20px;
+.rio{
+	padding: 10px;
+	margin-top: 10px;
+	color: #7C2929;
 }
-.project{
+.rio:hover{
+	background-color: #7C2929;
+	color: white;
+}
+.bio{
+	border-top: 1px solid black;
+}
+.september{
+	border-left: 1px solid black;
+	padding-left: 10px;
+}
+.october{
+	border-right: 1px solid black;
+	padding-right: 5px;
+}
+.november{
+	border-left: 1px solid black;
+	padding-left: 10px
+}
+.indiana{
+	height: 200px;
+	display: inline-block;
+	width: 200px;
+	margin-top: 20px;
+	margin-left: 200px;
+	margin-bottom: 50px;
+}
+.iu{
+	height: 250px;
+	display: inline-block;
+	width: 350px;
+	margin-left: 750px;
+	margin-top: 5px;
+}
+.crest{
+	height: 300px;
+	display: inline-block;
 	width: 300px;
-	font-family: georgia;
+	margin-left: 200px;
 }
-.one{
-	font-family: georgia;
-	color: White;
-	border: 2px dashed white;
-	margin-bottom: 10px;
-	margin-left: 50px;
-}
-.two{
-	font-family: georgia;
-	color: #e8e8e8;
-	margin-left: 100px;
-	border: 2px dotted #e8e8e8;
-	margin-bottom: 10px;
-}
-.three{
-	font-family: georgia;
-	color: #c4c4c4;
-	margin-left: 150px;
-	border: 2px solid #c4c4c4;
-}
-span{
-	margin-left: 100px;
-}
+
  
