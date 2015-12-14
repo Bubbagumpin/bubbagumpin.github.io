@@ -13,7 +13,6 @@
     white-space: nowrap;
 }
 .image{
-    float: left;
     height: 100px;
     border: 1px solid white;
     width: 200px;
@@ -184,6 +183,7 @@
     #head{font-size: 30px;}
     #design{font-size:20px; }
     #connect{width: 100%; font-size: 15px;}
+    .rio-2016{ width: 100%;}
 @media(max-width: 600px){
      #connectphoto{ height: 40px; width: 60px; display: inline; margin-left: 30px;}
      .facebookphoto{margin-left: 100px;}
