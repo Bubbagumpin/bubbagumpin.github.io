@@ -18,26 +18,181 @@
     border: 1px solid white;
     width: 200px;
 }
-.lesson-3{
-    padding-top: 30px;
-    padding-bottom: 30px;
+.window{
+    padding-top: 100px;
+    padding-bottom: 100px;
     margin-top: 30px;
-    margin-bottom: 30px;
-    color: white;
-    background-image: url(C:\Users\alexander\Desktop\J360\Web design portfolio photos\Gates.jpg);
-    background-size: 100% ;
+    margin-bottom: 10px;
+    background-image: url(http://newsinfo.iu.edu/pub/libs/images/usr/3951_h.jpg);
+    background-size: 1100px;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100%;
+    font-size: 40px;
 }
 .rio-2016{
-    background-color: #561D1D;
+    background-color: #0080FF;
     padding-bottom: 30px;
     padding-top: 30px;
-    margin-top: 28px;
+    text-align: center;
+    font-family: 'arimo', sans-serif;
+    font-size: 30px;
+    
 }
+#rio{text-decoration: 
+    none;color:#001933;}
 .redesign{
-    background-color: #C97827;
-    margin-top: -30px;
+    background-color: #330000;
     margin-bottom: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
 }
+.connect{
+    background-color: #7cddde;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: #0e0c30;
+    margin-top: 28px;
+    border-bottom: solid grey 1px;
+}
+.twitterphoto{
+    height: 70px;
+    width: 90px;
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-top: 30px;
+
+}
+.facebookphoto{
+    height: 70px;
+    width: 85px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.linkedinphoto{
+    height: 70px;
+    width: 85px;
+    margin-left: 160px;
+    margin-top: 30px;
+}
+.article{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #001933;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.footer{
+    border-top: solid grey 1px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-family: 'lato';
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+}
+.l3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+    background-color: #0066CC;
+    text-decoration: none;
+    font-family: 'arimo', sans-serif;
+    font-size: 30px;
+}
+.responsive{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+    background-color: #004C99;
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: 'arimo', sans-serif;
+}
+.news{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #003366;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'arimo', sans-serif;
+}
+.organization{
+    border-bottom: solid grey 1px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Montserrat';
+}
+.journalism{
+    margin-left: 5px;
+}
+.aaf{
+    height: 100px; 
+    width: 125px;
+    margin-left: 30px;
+
+}
+.pkt{
+    margin-left: 50px;
+    width: 300px; 
+    height: 100px;
+}
+.fp{
+    margin-left: 175px;
+}
+.hurling{
+    height: 100px; 
+    width: 100px; 
+    margin-left: 50px
+}
+#head{
+    font-family: 'lato'; 
+    font-size: 40px; 
+    text-align: center; 
+    color: white;
+}
+#design{
+    font-size:20px;
+    font-family: 'roboto';
+}
+#buzz{
+    font-size: 40px; 
+    color: red; 
+    font-family: 'ubuntu', sans-serif;
+}
+#feed{
+    font-size: 25px;
+}
+@media (max-width: 800px){
+    .organization{display: none;}
+    .pkt{display: none;}
+    .fp{display: none;}
+    .journalism{display: none;}
+    .aaf{display: none;}
+    .hurling{display: none;}
+    .photo{width: 100%;}
+    #head{font-size: 30px;}
+    #design{font-size:20px; }
+    #connect{width: 100%; font-size: 15px;}
+@media(max-width: 600px){
+     #connectphoto{ height: 40px; width: 60px; display: inline; margin-left: 30px;}
+     .facebookphoto{margin-left: 100px;}
+     .footer{font-size: 10px; }
+     #transcript{display: none;}
+}
+@media(max-width: 850px){
+    .window{display: none;}
+}
+
+
+
